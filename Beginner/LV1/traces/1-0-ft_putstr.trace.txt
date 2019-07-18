@@ -1,0 +1,88 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z2r9p7.42.us.org
+Darwin 17.4.0 x86_64
+$> date
+Mon Jul  8 12:01:06 PDT 2019
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 10.0.0 (clang-1000.10.44.4)
+Target: x86_64-apple-darwin17.4.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2019/c-exam-alone-in-the-dark-beginner/practice-exam_20190708/vrabaib
+
+= Git history ==================================================================
+$> git -C /var/folders/44/0h75lcfd4_s98fccst2vrsm40000gp/T/tmpnriQzM/user log --pretty='%H - %an, %ad : %s'
+93b64054861e22d7d0a00e847f91dea0b72fae23 - Vasu Rabaib, Mon Jul 8 12:00:56 2019 -0700 : Adding lv 1
+1c63e4ff4bd5b63d4b5df7ba562d98f531e47cc4 - Vasu Rabaib, Mon Jul 8 11:57:23 2019 -0700 : Adding lv 0
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/44/0h75lcfd4_s98fccst2vrsm40000gp/T/tmpnriQzM/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  501 Jul  8 12:01 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Jul  8 12:01 aff_first_param
+drwxr-xr-x  3 deepthought  deepthought  102 Jul  8 12:01 ft_putstr
+
+/var/folders/44/0h75lcfd4_s98fccst2vrsm40000gp/T/tmpnriQzM/user/aff_first_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1113 Jul  8 12:01 aff_first_param.c
+
+/var/folders/44/0h75lcfd4_s98fccst2vrsm40000gp/T/tmpnriQzM/user/ft_putstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1013 Jul  8 12:01 ft_putstr.c
+ 
+= ft_putstr ====================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./x8tzp1zy4capukdi1mpe432d "J6gqXfP"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./aqsfuprppcgpdgqqeafcuef6 "DRz"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./iw446pas448us0yt9m29xsxg "hA4cWRw9Q"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./x0bjg6rv12vdxj23p15qvrun "dvTUDHLSxg8Z CVWU6c0vDAIOm 7j4I yBu rqwx6gSOn8YJ KOr9XRYZ7qFsn4H VEnkpAe0YwB sz8QU0KwVcr rcJCRGoZx"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./fsrvn7sctdrn2akz58qyb786 "5saXTx ujOM6 xF01jyPCEe q01XcbdDptm seQr kFKlUgZ9izbf nDO fwNJymBvcjH vx59b Wa4tN60qhpTeXY"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./8h86p36vep97cvhvldfnjxys "n7dIEhOuMtajvBi 5fw3uikK o2sr GUNW5 HBckSF EX0I6vHcGFpk1xS 54nYPUGxAze6"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./pfoesydjmz8lezjdplu5kvbn "DGRN3pPFW9a6z k2I wknQipxOID7 VJtSP1zjfwlQc2v9R mP6aA7IzQOyMb dqTmfhawCxD6l98NK jALtGKmB3Yai50x"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./jmtfb48rxmk1gsncrj3l1mm2 
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
